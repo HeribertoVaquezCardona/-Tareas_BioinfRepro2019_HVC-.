@@ -1,3 +1,4 @@
 # -Tareas_BioinfRepro2019_HVC-.
-Repository of the course
-Heriberto Vázquez Cardona
+Heriberto Vázquez Cardona.
+Repository of the course.
+
