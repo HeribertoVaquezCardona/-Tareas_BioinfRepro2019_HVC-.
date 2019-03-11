@@ -1,1 +1,18 @@
+#**README**
+
+
+Qué hay en el repo en general
+
+
+
+##**Directories**
+
+
+
+##**Scripts**
+
+
+
+
+
 
