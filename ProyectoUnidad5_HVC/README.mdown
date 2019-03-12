@@ -1,18 +1,29 @@
 # **README**
 
+## Project U. 5 "Fst: Analisis of population genetics"
 
-Qué hay en el repo en general
+Autor: Heriberto Vazquez Cardona (Social Service: Institute of Ecology)
 
+### Objective:
+This project creates Fst Analisis using maize (landraces) data. This Fst will calculates the population divergency 
+between landraces of maize considering the altitude. 
 
+### Repository:
+This repository contains the 3 directories of this project.
+data: contains raw data. Those are the output of GBS with landraces maize data. I got the data with my tutor.
+meta: contains vcf data. GBS data became to vcf. I got the data with my tutor.
+bin: contains the scripts tu create the Fst.
 
-## **Directories**
+### Scripts
+First and second scripts tun with bash.
 
+1. script1.bash : works to come in the Tassel5 directory.
+2. start_tassel.pl : opens Tassel.
 
+The next scripts use R to create the Fst.
 
-## **Scripts**
-
-
-
-
+1. script1.R : loads the vcf file with the landraces.
+2. script2.R : fixes parameters like missing data and maf.
+3. Still I don't have the other fundamental scripts to create the Fst. One will makes the plot, of course.
 
 
