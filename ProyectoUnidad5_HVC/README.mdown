@@ -12,7 +12,7 @@ between landraces of maize considering the altitude.
 This repository contains the 3 directories of this project.
 - data: contains raw data. Those are the output of GBS with landraces maize data. I got the data with my tutor.
 - meta: contains vcf data. GBS data became to vcf. I got the data with my tutor.
-- bin: contains the scripts tu create the Fst.
+- bin: contains the scripts to create the Fst.
 
 ### Scripts
 First and second scripts tun with bash.
