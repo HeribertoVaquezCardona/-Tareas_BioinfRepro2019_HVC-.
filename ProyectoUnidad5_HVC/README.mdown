@@ -15,6 +15,8 @@ This repository contains the 3 directories of this project.
 - bin: contains the scripts to create the Fst.
 
 ### Scripts
+TO run the scripts is necesary have Tassel5 in the computer, and save that program in a tassel5 directory inside bin directory.
+
 First and second scripts run with bash.
 
 1. script1.bash : works to come in the Tassel5 directory.
