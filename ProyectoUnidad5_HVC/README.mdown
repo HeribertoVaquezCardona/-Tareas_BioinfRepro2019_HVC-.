@@ -15,10 +15,10 @@ This repository contains the 3 directories of this project.
 - bin: contains the scripts to create the Fst.
 
 ### Scripts
-First and second scripts tun with bash.
+First and second scripts run with bash.
 
 1. script1.bash : works to come in the Tassel5 directory.
-2. start_tassel.pl : opens Tassel.
+2. start_tassel.pl : opens Tassel5.
 
 The next scripts use R to create the Fst.
 
