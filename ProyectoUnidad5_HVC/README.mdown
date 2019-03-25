@@ -15,17 +15,19 @@ This repository contains the 3 directories of this project.
 - bin: contains the scripts to create the Fst.
 
 ### Scripts
-To run the scripts is necesary have Tassel5 in the computer, and save that program in a tassel5 directory inside bin directory.
+To run the scripts is necesary install Tassel5 and save the program in a tassel5 directory inside bin directory.
 
 First and second scripts run with bash.
 
-1. script1.bash : works to come in the Tassel5 directory.
-2. start_tassel.pl : opens Tassel5.
+1. runtassel5.sh : works to come in the Tassel5 directory.
+2. start_tassel.pl : it opens Tassel5.
 
-The next scripts use R to create the Fst (Still Iḿ not sure of what to use: Hierfstat, Stacks  or adegenet)
+Inside Tassel5: open /meta/368_Taxa_Rename_Plink_File.txt . Use the graphic interface to  choose Filter, Taxa Names, and then select just the Landraces samples (with the key "Na" and then: Bo (Bolita), Ch (Chalqueño), Ms (Mushito), Pp (Pepitilla), Tb (Tabloncillo), Va (VAndeño), Zm (Zamorano). Without simpatry with "H" (modern varities)). Save the new file in VCF format: Zea_mays_7LR.vcf.
 
-1. script1.R : loads the vcf file with the landraces.
-2. script2.R : fixes parameters like missing data and maf.
-3. Still I don't have the other fundamental scripts to create the Fst. One will makes the plot, of course.
+The next scripts use R to create the Fst (using hierfstat and adegenet)
+
+1. convertVCFtogenlight.R : it converts Zea_mays_7LR.vcf (VCF file) to genlight file. 
+2. calculateFst.R : it calculates the Fst using the genlight file.
+3. Fstplot.R : it makes the Fst plot.
 
 
