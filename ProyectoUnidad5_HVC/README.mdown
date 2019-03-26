@@ -21,13 +21,17 @@ First and second scripts run with bash.
 
 1. runtassel5.sh : works to come in the Tassel5 directory.
 2. start_tassel.pl : it opens Tassel5.
-
-Inside Tassel5: open /meta/368_Taxa_Rename_Plink_File.txt . Use the graphic interface to  choose Filter, Taxa Names, and then select just the Landraces samples (with the key "Na" and then: Bo (Bolita), Ch (Chalqueño), Ms (Mushito), Pp (Pepitilla), Tb (Tabloncillo), Va (VAndeño), Zm (Zamorano). Without simpatry with "H" (modern varities)). Save the new file in VCF format: Zea_mays_7LR.vcf.
+3. zipfileVCF.R : works to zip /data/filtered/"Zea_mays_7LR.vcf".
 
 The next scripts use R to create the Fst (using hierfstat and adegenet)
 
 1. convertVCFtogenlight.R : it converts Zea_mays_7LR.vcf (VCF file) to genlight file. 
-2. calculateFst.R : it calculates the Fst using the genlight file.
-3. Fstplot.R : it makes the Fst plot.
+2. genlight2genind.R : it converts the genlight file to genind file.
+3. calculateFst.R : it calculates the Fst using the genind file.
+4. Fstplot.R : it makes the Fst plot.
+
+
+### Comments:
+I don't have my own data, so for this project I use the tutor's data. 
 
 
