@@ -49,4 +49,9 @@ if (@args != 0){
 
 system "java -classpath '$CP' $java_mem_min $java_mem_max net.maizegenetics.tassel.TASSELMainApp @args";
 
+# Once inside Tassel5 use the graphic interface. Open the plink file "/data/368_Taxa_Rename_Plink_File.txt" choose Filter, Taxa Names
+# and then select just the Landraces samples (with the key "Na" and then: Bo (Bolita), Ch (Chalqueño), Ms (Mushito), Pp (Pepitilla), 
+# Tb (Tabloncillo), Va (VAndeño), Zm (Zamorano). Without simpatry with "H" (modern varities)).
+# Save the new file in data/filtered/ as VCF and you can get "Zea_mays_7LR.vcf".
+
 # References: Rojas, Idalia (s/f)
