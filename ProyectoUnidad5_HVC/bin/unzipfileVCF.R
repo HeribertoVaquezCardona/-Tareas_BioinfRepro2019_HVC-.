@@ -1,6 +1,7 @@
-# Unzip "/data/Zea_mays_7LR.vcf
-# This script will make "Zea_mays_7LR.vcf" and this file is necesary to convert VCF to genlight
+# Unzip two VCF files.
+# This script will make "Z_Va.vcf" and "Z_Ch.vcf". These files are necesary to convert VCF to genind.
 
 
-unzip /data/Zea_mays_7LR.vcf.gz 
+unzip Z_Va.vcf.gz 
+unzip Z_Ch.vcf.gz 
 
