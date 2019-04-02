@@ -1,0 +1,8 @@
+# Once inside Tassel5 use the graphic interface. Open the plink file "/data/368_Taxa_Rename_Plink_File.txt".Follow the
+# instructions: choose Filter, Taxa Names and then select just Chalqueño landrace samples (key: ChNa). Then make the
+# same with the landrace Vandeño (key: VaNa).
+# To both files choose: Filter, Sites, Minimum count= 20 (Chalqueño file), Minimum count= 14 (Vandeño file),
+# Minimun Frecueny= 0.05 (both), Maximum Frecuency= 1.0 (both), tick Remove minor SNP states (both). 
+# Save the new files for separate in data/ as VCF: "Z_Va.vcf" and "Z_Ch.vcf" .
+
+# References: Rojas, Idalia. 
