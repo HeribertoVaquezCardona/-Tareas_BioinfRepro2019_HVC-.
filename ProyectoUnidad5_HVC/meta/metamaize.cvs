@@ -1,3 +1,13 @@
-# I don't have the metadatos.
+# This file describes the data files.
 
-# My tutor gave me a plink file. 
+# 368_Taxa_Rename_Plink_File.txt : I got this plink file with my tutor. It has 368 taxa, they are: landraces, 
+landraces in simpatry with hibryds, teocintles and landraces in simpatry with teocintles. It contains 7 landraces: 
+Tabloncillo, Zamorano , Bolita, Chalqueño, Mushito, Vandeño y Pepitilla.
+
+# Z_Ch.vcf.gz :This is a vcf zip file, it contains samples of Chalqueño.
+
+# Z_Va.vcf.gz :This is a vcf zip file, it contains samples of Vandeño.
+
+
+
+
