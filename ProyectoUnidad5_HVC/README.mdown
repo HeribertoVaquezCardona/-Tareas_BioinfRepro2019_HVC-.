@@ -12,7 +12,7 @@ Both tests will be comparate between them to know wich is in H-W Equilibrium.
 ### Repository:
 This repository contains the 3 directories of the project.
 - data: contains maize data. I didn't have the data of GBS, but I converted a plink file to VCF files (I got the data with my tutor Idalia Rojas).
-- meta: contains one file. It describes the data files.
+- meta: contains one file to describe the data files. The other file explains how to use the graphic interface of Tassel5.
 - bin: contains the scripts to create the H-W Equilibrium Test.
 
 ### Scripts
@@ -33,5 +33,6 @@ The next scripts use R to create the H-W Equilibrium Test.
 
 ### Comments:
 I don't have my own data, so for this project I use tutor's data. 
+I uploaded 3 files of Results and Discussion. VaHWE and ChHWE are results in a csv format. Discussion is one file about the two tests.
 
 
