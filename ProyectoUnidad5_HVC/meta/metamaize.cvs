@@ -4,9 +4,9 @@
 landraces in simpatry with hibryds, teocintles and landraces in simpatry with teocintles. It contains 7 landraces: 
 Tabloncillo, Zamorano , Bolita, Chalqueño, Mushito, Vandeño y Pepitilla.
 
-# Z_Ch.vcf.gz :This is a vcf zip file, it contains samples of Chalqueño.
+# Z_Ch.vcf.gz :This is a vcf zip file, it contains samples of Chalqueño. Parameters: depth=0.2, missing data=0.8, maf=3.6 .
 
-# Z_Va.vcf.gz :This is a vcf zip file, it contains samples of Vandeño.
+# Z_Va.vcf.gz :This is a vcf zip file, it contains samples of Vandeño. Parameters: depth=0.2, missing data=0.8, maf=3.6 .
 
 
 
