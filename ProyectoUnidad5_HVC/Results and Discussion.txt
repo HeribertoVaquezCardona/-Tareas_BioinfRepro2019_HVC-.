@@ -1,0 +1,30 @@
+### RESULTS
+
+## Vandeño: H-W Equilibrium Test.
+I saved the matrix of this H-W Equilibrium Test in csv format. I uploaded that file (VaHWE.csv), but in avarage:
+chi^2> 3.841.
+
+
+## Chalqueño: H-W Equilibrium Test.
+I saved the matrix of this H-W Equilibrium Test in csv format. I uploaded that file (ChHWE.csv), but in avarage:
+chi^2> 3.841.
+
+
+## DISCUSSION
+
+In maize, the altitud is one of the most important factor to grow up. Usually, is complicated to them adaptaded to different altitud.
+Vandeño and Chalqueño are two landraces of maize and they grow up in differents altitudes. Chalqueño is considered a highland landrace
+and Vandeño a lowhighland landrace.
+
+Vandeño belongs of the Dentados tropicales group of maize. In 1951, Wellhausen et al. described this landrace and proposed an
+avarage of his common altitud:	0-500 amsl. But in this project, Vandeño samples have an collect altitud between 298 and 721 amsl.
+The samples belong to 3 different periods of collect: before 1960, 1960-1980, and after 2000.
+So, considering the results of the HWE Test, I rejected the null model and the Vandeño popolution is not in H-W Equilibrium 
+because chi^2> 3.841
+
+Chalqueño	belongs of the Cónico gropu of maize.	The CONABIO (s/f) proposed the common altitud of this landrace up of 1800 amsl.
+In this project, Vandeño samples have an collect altitud between 2247 and 2705 amsl.
+The samples belong to 3 different periods of collect: before 1960, 1960-1980, and after 2000.
+Considering the results of the HWE Test with significant statistical suppor, and the Chalqueño popolution is not in H-W Equilibrium 
+because chi^2> 3.841
+
