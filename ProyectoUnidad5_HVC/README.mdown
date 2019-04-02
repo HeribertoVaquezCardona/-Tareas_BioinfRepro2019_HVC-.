@@ -1,37 +1,37 @@
 # **README**
 
-## Project U. 5 "Fst: Analisis of population genetics"
+## Project U. 5 "HWE: Analisis of population genetics"
 
 Autor: Heriberto Vazquez Cardona (Social Service: Institute of Ecology)
 
 ### Objective:
-This project creates Fst Analisis using maize (landraces) data. This Fst will calculates the population divergency 
-between landraces of maize considering the altitude. 
+This project creates two Hardy-Weingber Equilibrium Tests using 2 populations of maize, landraces: Vandeño and Chalqueño. 
+Both tests will be comparate between them to know wich is in H-W Equilibrium.
+ 
 
 ### Repository:
-This repository contains the 3 directories of this project.
-- data: contains raw data. Those are the output of GBS with landraces maize data. I got the data with my tutor.
-- meta: contains vcf data. GBS data became to vcf. I got the data with my tutor.
-- bin: contains the scripts to create the Fst.
+This repository contains the 3 directories of the project.
+- data: contains maize data. I didn't have the data of GBS, but I converted a plink file to VCF files (I got the data with my tutor Idalia Rojas).
+- meta: contains one file. It describes the data files.
+- bin: contains the scripts to create the H-W Equilibrium Test.
 
 ### Scripts
 To run the scripts is necesary install Tassel5 and save the program in a tassel5 directory inside bin directory.
 
-First and second scripts run with bash.
+First, second and third script run with bash.
 
 1. runtassel5.sh : works to come in the Tassel5 directory.
 2. start_tassel.pl : it opens Tassel5.
-3. unzipfileVCF.R : works to zip /data/filtered/"Zea_mays_7LR.vcf".
+3. unzipfileVCF.R : works to unzip VCF files: Z_Va.vcf.gz and Z_Ch.vcf.gz .
 
-The next scripts use R to create the Fst.
+The next scripts use R to create the H-W Equilibrium Test.
 
-1. convertVCFtogenlight.R : it converts Zea_mays_7LR.vcf (VCF file) to genlight file. 
-2. genlight2genind.R : it converts the genlight file to genind file.
-3. calculateFst.R : it calculates the Fst using the genind file.
-4. Fstplot.R : it makes the Fst plot.
+1. convertVCFtogenind.R : it converts the 2 VCF files to genind objects. 
+2. calculateHWE.R : it calculates the HW Equilibrium Tests using the genind file.
+3. HWEplot.R : it makes the HWE plot.
 
 
 ### Comments:
-I don't have my own data, so for this project I use the tutor's data. 
+I don't have my own data, so for this project I use tutor's data. 
 
 
